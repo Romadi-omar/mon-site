@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page Complète</title>
+    <style>
+        /* CSS de base pour la mise en page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.3;
+
+            background-color: #e4aeae;
+
+        }
+
+        header,
+        footer {
+            background: #b02525;
+            color: rgb(255, 236, 236);
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="ani.jpg" width="100" alt="logo">
+        </div>
+        <h1>ANIME RECOMENDATION</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#tableau">Tableau</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="accueil">
+            <h2>Bienvenue sur mon site !</h2>
+            <img src="pp.jpg" alt="Image d'accueil">
+            <p>Vous ne savez quoi faire dan votre temps libre ? esseyer dee voir l'ANIME, L’anime est une forme
+                d’animation japonaise qui englobe une grande variété de genres, de styles artistiques et de récits.
+                Contrairement aux idées reçues, l’anime ne s’adresse pas uniquement aux enfants ; il peut aborder des
+                thèmes profonds, philosophiques, sociaux ou psychologiques, parfois avec une grande maturité. De séries
+                légendaires comme Naruto, One Piece ou Death Note à des œuvres cinématographiques acclamées comme celles
+                du studio Ghibli (Le Voyage de Chihiro, Princesse Mononoké), l’anime a su conquérir un public
+                international. Son esthétisme unique, la richesse de ses univers et l’intensité émotionnelle de ses
+                personnages en font un art à part entière, qui dépasse largement les frontières du Japon.
+
+                ici tu va trouver des recomendation sur quelque serie D'anime a regarder dans votre tamps libre
+            </p>
+        </section>
+        <section id="tableau">
+            <h2>ANIME A VOIR</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <td>ANIME</td>
+                        <td>caractere principale</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>One piece</th>
+                        <th>Monkey D luffy</th>
+                    </tr>
+                    <tr>
+                        <th>death note</th>
+                        <th>Yagami light</th>
+                    </tr>
+                    <tr>
+                        <th>naruto</th>
+                        <th>Naruto</th>
+                    </tr>
+                    <tr>
+                        <th>Dragon ball</th>
+                        <th>Goku </th>
+                    </tr>
+                    <tr>
+                        <th>Black clover</th>
+                        <th> Asta</th>
+                    </tr>
+                    <tr>
+                        <th>moster</th>
+                        <th> kenzo tenma</th>
+                    </tr>
+                    <tr>
+                        <th>Kaijuu-8-gou</th>
+                        <th> hibino kafka</th>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="contact">
+            <h2>Contactez-moi</h2>
+            <form>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required><br>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea><br>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 MonSite - Tous droits réservés</p>
+        <nav>
+            <ul>
+                <li><a href="#">Mentions légales</a></li>
+                <li><a href="#">Politique de confidentialité</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid rgb(255, 254, 252);
+            padding: 8px;
+            text-align: left;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 10 auto;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+        }
+
+        button {
+            background: #333;
+            color: orange;
+            padding: 20px 25px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #555;
+        }
+    </style>
